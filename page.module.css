@@ -1,0 +1,161 @@
+/* Main container styling */
+.myMainContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #f0f2f5;
+    padding: 20px;
+    font-family: 'Arial', sans-serif;
+}
+
+/* Inner container styling */
+.myContainer {
+    background-color: white;
+    border-radius: 12px;
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.15);
+    width: 100%;
+    max-width: 900px;
+    padding: 30px;
+}
+
+/* Top section wrapper styling */
+.myTopSectionWrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.myTopSectionWrapper select,
+.myTopSectionWrapper input {
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    outline: none;
+    transition: border-color 0.3s;
+}
+
+.myTopSectionWrapper select:focus,
+.myTopSectionWrapper input:focus {
+    border-color: #007bff;
+}
+
+.myTopSectionWrapper input[type="number"] {
+    width: 80px;
+}
+
+/* Bottom section wrapper styling */
+.myBottomSectionWrapper {
+    display: flex;
+    flex-direction: column;
+}
+
+/* List styling */
+.myListStylingWrapper {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+/* Individual list item styling */
+.myListWrapper {
+    display: flex;
+    align-items: center;
+    border: 1px solid #ddd;
+    border-radius: 12px;
+    padding: 15px;
+    margin-bottom: 15px;
+    background-color: #fff;
+    transition: transform 0.2s, box-shadow 0.2s;
+    cursor: pointer;
+}
+
+.myListWrapper:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+}
+
+/* Image styling */
+.myImageStyling {
+    width: 100px;
+    height: 100px;
+    object-fit: contain;
+    border-radius: 12px;
+    margin-right: 20px;
+    mix-blend-mode: multiply;
+}
+
+/* Item description wrapper styling */
+.myItemDescriptionWrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex-grow: 1;
+}
+
+/* Title styling */
+.myTitleWrapper {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 8px;
+    color: #333;
+}
+
+/* Description styling */
+.myDescriptionWrapper {
+    font-size: 14px;
+    color: #555;
+    margin-bottom: 8px;
+}
+
+/* Price styling */
+.myPriceWrapper {
+    font-size: 18px;
+    color: #28a745;
+}
+
+/* Button styling */
+.myButtonStyling {
+    padding: 12px 25px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s;
+}
+
+.myButtonStyling:hover {
+    background-color: #0056b3;
+}
+
+/* Wrapper for inner container */
+.myListWrapperFirstInnerContainer {
+    display: flex;
+    align-items: center;
+    flex-grow: 1;
+}
+
+.myListWrapperSecondInnerContainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 20px;
+}
+
+.myListWrapperSecondInnerContainer input[type="checkbox"] {
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+}
+
+/* Error message styling */
+.errorMessage {
+    color: red;
+    font-size: 14px;
+    margin-bottom: 20px;
+    text-align: center;
+}
